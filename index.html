@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width,initial-scale=1"
+>
+
+<title>
+PC Troubleshooting Wizard
+</title>
+
+<link
+rel="stylesheet"
+href="style.css"
+>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>
+🛠 PC Troubleshooting Wizard
+</h1>
+
+<p>
+Select issue and get troubleshooting steps
+</p>
+
+
+<select id="issue">
+
+<option value="">
+Choose Issue
+</option>
+
+<option value="internet">
+No Internet
+</option>
+
+<option value="printer">
+Printer Offline
+</option>
+
+<option value="slow">
+PC Running Slow
+</option>
+
+<option value="login">
+Cannot Login
+</option>
+
+</select>
+
+
+<div>
+
+<button onclick="diagnose()">
+
+Show Solution
+
+</button>
+
+<button onclick="resetResult()">
+
+Reset
+
+</button>
+
+<button onclick="toggleDark()">
+
+Dark Mode
+
+</button>
+
+</div>
+
+
+<div id="result">
+
+Choose an issue above
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
